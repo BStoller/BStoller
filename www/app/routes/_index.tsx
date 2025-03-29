@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
-import gridPattern from "../../public/assets/grid-pattern.svg";
-import desktop from "../../public/assets/desktop.svg";
+import gridPattern from "~/assets/grid-pattern.svg";
+import desktop from "~/assets/desktop.svg";
 
 export const meta: MetaFunction = () => {
   return [
